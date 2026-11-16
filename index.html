@@ -16,6 +16,7 @@
  main{padding:20px;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
  .card{background:#1b1b1b;border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px}
  .card h2{margin:0;font-size:16px}
+ .card img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;background:#000;display:block}
  .tag{font-size:12px;color:#9ab}
  .card p{margin:0;font-size:13px;color:#ccc;line-height:1.4}
  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
@@ -39,13 +40,13 @@ const files={'3d':'data/3d-style-atlas.json','ai':'data/ai-style-atlas.json'};
 const cache={};let cur='3d';
 
 function normalize(k,d){
-  if(k==='3d')return d.styles.map(s=>({id:s.id,name:s.name,category:s.family||'',desc:s.look||'',raw:s,videos:[]}));
+  if(k==='3d')return d.styles.map(s=>({id:s.id,name:s.name,category:s.family||'',desc:s.look||'',raw:s,img:s.image||'',img2:s.poster||'',videos:[s.video].filter(Boolean)}));
   return d.list.map(s=>{const x=d.styles[s.styleId]||{};
-    return {id:s.styleId,name:s.name,category:s.category||'',desc:s.description||'',raw:Object.assign({},s,x),
+    return {id:s.styleId,name:s.name,category:s.category||'',desc:s.description||'',raw:Object.assign({},s,x),img:s.image||'',img2:s.s3PosterImageUrl||'',
       videos:[s.s3ClipVideoUrl,s.s3ExplainerVideoUrl].filter(Boolean)}});
 }
 function promptText(item){
-  const r=item.raw,skip=new Set(['source','id','order','styleId','s3ClipVideoUrl','s3ExplainerVideoUrl','s3PosterImageUrl']);
+  const r=item.raw,skip=new Set(['source','id','order','styleId','s3ClipVideoUrl','s3ExplainerVideoUrl','s3PosterImageUrl','image','poster','video']);
   let t='';
   for(const [k,v] of Object.entries(r)){
     if(skip.has(k)||v==null||typeof v==='object')continue;
@@ -68,13 +69,15 @@ function render(){
     if(q&&!(s.name+' '+s.desc+' '+s.category).toLowerCase().includes(q))return;
     n++;
     const d=document.createElement('div');d.className='card';
-    d.innerHTML='<h2></h2><div class="tag"></div><p></p><div class="row"></div>';
+    d.innerHTML='<img loading="lazy" alt=""><h2></h2><div class="tag"></div><p></p><div class="row"></div>';
+    const im=d.querySelector('img');im.alt=s.name;
+    if(s.img||s.img2){im.src=s.img||s.img2;im.onerror=()=>{if(s.img2&&im.src!==s.img2){im.onerror=null;im.src=s.img2}else im.style.display='none'}}else im.style.display='none';
     d.querySelector('h2').textContent=s.name;
     d.querySelector('.tag').textContent=s.category;
     d.querySelector('p').textContent=s.desc;
     const row=d.querySelector('.row');
     const b=document.createElement('button');b.textContent='Copy full prompt';b.onclick=()=>copy(promptText(s),b);row.appendChild(b);
-    s.videos.forEach((u,i)=>{const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';a.textContent=i?'Explainer':'Clip';row.appendChild(a)});
+    s.videos.forEach((u,i)=>{const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';a.textContent=s.videos.length>1?(i?'Explainer':'Clip'):'Preview video';row.appendChild(a)});
     g.appendChild(d);
   });
   $('msg').style.display=n?'none':'block';if(!n)$('msg').textContent='No styles match.';

@@ -25,6 +25,26 @@ def get(url, tries=4):
 def prompt_data(atlas, sid):
     return json.loads(json.loads(get(f"{BASE}/api/resources/{atlas}/styles/{sid}/prompt-data"))["data"])
 
+CDN = "https://cdn.futurepedia.io/"
+SLUG_NAME = {"glass-light":"Glass and Light","ink-toon":"Ink and Toon","split-flap":"Split-Flap Board"}
+
+def norm(x):
+    return "".join(c for c in x.lower() if c.isalnum())
+
+def download(url, path):
+    if os.path.exists(path) and os.path.getsize(path) > 0:
+        return True
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    for i in range(3):
+        try:
+            req = urllib.request.Request(url, headers=dict(UA, Referer=BASE + "/"))
+            with urllib.request.urlopen(req, timeout=60) as r, open(path, "wb") as f:
+                f.write(r.read())
+            return True
+        except Exception as e:
+            time.sleep(2 * (i + 1))
+    return False
+
 def save(name, obj):
     os.makedirs("data", exist_ok=True)
     with open(f"data/{name}", "w", encoding="utf-8") as f:
@@ -41,6 +61,18 @@ for sid in THREE_D:
         styles.append(prompt_data("3d-style-atlas", sid))
     except Exception as e:
         failed.append(("3d-style-atlas", sid, str(e)))
+media = {norm(n): (p, v) for n, p, v in json.load(open("tools/media3d.json"))}
+img_ok = 0
+for st in styles:
+    key = norm(SLUG_NAME.get(st["id"], st["name"]))
+    if key not in media:
+        failed.append(("3d-media", st["id"], "no poster found")); continue
+    p, v = media[key]
+    st["poster"], st["video"] = CDN + p, CDN + v
+    if download(st["poster"], f"images/3d/{st['id']}.jpg"):
+        st["image"] = f"images/3d/{st['id']}.jpg"; img_ok += 1
+    else:
+        failed.append(("3d-media", st["id"], "poster download failed"))
 save("3d-style-atlas.json", {"source": f"{BASE}/resources/3d-style-atlas/view", "fetched": now, "styles": styles})
 
 # ---- Atlas 2: AI Style Atlas
@@ -57,12 +89,18 @@ for s in lst:
         details[s["styleId"]] = prompt_data("ai-style-atlas", s["styleId"])
     except Exception as e:
         failed.append(("ai-style-atlas", s["styleId"], str(e)))
+for s in lst:
+    if s.get("s3PosterImageUrl") and download(s["s3PosterImageUrl"], f"images/ai/{s['styleId']}.jpg"):
+        s["image"] = f"images/ai/{s['styleId']}.jpg"; img_ok += 1
+    else:
+        failed.append(("ai-media", s["styleId"], "poster missing"))
 save("ai-style-atlas.json", {"source": f"{BASE}/resources/ai-style-atlas/view", "fetched": now, "list": lst, "styles": details})
 try:
     save("ai-prompt-builder.json", json.loads(get(f"{BASE}/api/resources/ai-style-atlas/prompt-builder")))
 except Exception as e:
     failed.append(("ai-style-atlas", "prompt-builder", str(e)))
 
+print(f"images saved: {img_ok}")
 print(f"3D: {len(styles)}/{len(THREE_D)}  AI: {len(details)}/{len(lst)}  failed: {len(failed)}")
 for f in failed:
     print("FAILED", f)
