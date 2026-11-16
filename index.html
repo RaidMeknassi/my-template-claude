@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>template save for raid</title>
+<style>
+ body{font-family:system-ui,sans-serif;margin:0;background:#111;color:#eee}
+ header{padding:16px 20px;background:#1b1b1b;position:sticky;top:0;display:flex;gap:10px;flex-wrap:wrap;align-items:center;z-index:2}
+ h1{font-size:18px;margin:0;flex:1 1 100%}
+ input,select,button{font:inherit;padding:8px 10px;border-radius:8px;border:1px solid #444;background:#222;color:#eee}
+ button{cursor:pointer;background:#3b6cff;border-color:#3b6cff}
+ button.tab{background:#222;border-color:#444}
+ button.tab.on{background:#3b6cff;border-color:#3b6cff}
+ main{padding:20px;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+ .card{background:#1b1b1b;border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:8px}
+ .card h2{margin:0;font-size:16px}
+ .tag{font-size:12px;color:#9ab}
+ .card p{margin:0;font-size:13px;color:#ccc;line-height:1.4}
+ .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+ a{color:#9ab}
+ #msg{padding:30px 20px;text-align:center;color:#999}
+</style>
+</head>
+<body>
+<header>
+ <h1>template save for raid</h1>
+ <button class="tab on" data-k="3d">3D Style Atlas</button>
+ <button class="tab" data-k="ai">AI Style Atlas</button>
+ <input id="q" placeholder="Search..." style="flex:1;min-width:160px">
+ <select id="cat"><option value="">All categories</option></select>
+</header>
+<div id="msg">Loading...</div>
+<main id="grid"></main>
+<script>
+const $=id=>document.getElementById(id);
+const files={'3d':'data/3d-style-atlas.json','ai':'data/ai-style-atlas.json'};
+const cache={};let cur='3d';
+
+function normalize(k,d){
+  if(k==='3d')return d.styles.map(s=>({id:s.id,name:s.name,category:s.family||'',desc:s.look||'',raw:s,videos:[]}));
+  return d.list.map(s=>{const x=d.styles[s.styleId]||{};
+    return {id:s.styleId,name:s.name,category:s.category||'',desc:s.description||'',raw:Object.assign({},s,x),
+      videos:[s.s3ClipVideoUrl,s.s3ExplainerVideoUrl].filter(Boolean)}});
+}
+function promptText(item){
+  const r=item.raw,skip=new Set(['source','id','order','styleId','s3ClipVideoUrl','s3ExplainerVideoUrl','s3PosterImageUrl']);
+  let t='';
+  for(const [k,v] of Object.entries(r)){
+    if(skip.has(k)||v==null||typeof v==='object')continue;
+    t+=k.toUpperCase()+': '+v+'\n\n';
+  }
+  if(r.source)t+='SOURCE:\n'+r.source+'\n';
+  return t;
+}
+function copy(text,btn){
+  const done=()=>{const o=btn.textContent;btn.textContent='Copied';setTimeout(()=>btn.textContent=o,1200)};
+  navigator.clipboard.writeText(text).then(done).catch(()=>{
+    const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();done()});
+}
+function render(){
+  const items=cache[cur];if(!items)return;
+  const q=$('q').value.toLowerCase(),c=$('cat').value,g=$('grid');
+  g.innerHTML='';let n=0;
+  items.forEach(s=>{
+    if(c&&s.category!==c)return;
+    if(q&&!(s.name+' '+s.desc+' '+s.category).toLowerCase().includes(q))return;
+    n++;
+    const d=document.createElement('div');d.className='card';
+    d.innerHTML='<h2></h2><div class="tag"></div><p></p><div class="row"></div>';
+    d.querySelector('h2').textContent=s.name;
+    d.querySelector('.tag').textContent=s.category;
+    d.querySelector('p').textContent=s.desc;
+    const row=d.querySelector('.row');
+    const b=document.createElement('button');b.textContent='Copy full prompt';b.onclick=()=>copy(promptText(s),b);row.appendChild(b);
+    s.videos.forEach((u,i)=>{const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';a.textContent=i?'Explainer':'Clip';row.appendChild(a)});
+    g.appendChild(d);
+  });
+  $('msg').style.display=n?'none':'block';if(!n)$('msg').textContent='No styles match.';
+}
+async function show(k){
+  cur=k;
+  document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('on',b.dataset.k===k));
+  $('grid').innerHTML='';$('msg').style.display='block';$('msg').textContent='Loading...';
+  if(!cache[k]){
+    try{cache[k]=normalize(k,await (await fetch(files[k])).json());}
+    catch(e){$('msg').textContent='Could not load '+files[k]+'. It may not be collected yet.';return;}
+  }
+  const cats=[...new Set(cache[k].map(s=>s.category).filter(Boolean))];
+  $('cat').innerHTML='<option value="">All categories</option>'+cats.map(c=>'<option></option>').join('');
+  [...$('cat').options].slice(1).forEach((o,i)=>{o.value=o.textContent=cats[i]});
+  render();
+}
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>show(b.dataset.k));
+$('q').oninput=render;$('cat').onchange=render;
+show('3d');
+</script>
+</body>
+</html>
