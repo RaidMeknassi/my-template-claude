@@ -1,6 +1,6 @@
 {
  "source": "https://www.futurepedia.io/resources/ai-style-atlas/view",
- "fetched": "2026-11-16T23:01:22.918440+00:00",
+ "fetched": "2026-11-16T23:09:55.588102+00:00",
  "list": [
   {
    "category": "Popular Explainer Looks",
@@ -14,7 +14,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T17-53-13.260Z-H1shVDo3hwy7QEas3L_XzngD_nCveTnQf.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T17-53-08.519Z-iKhLKA7PdonZWchY1Ix-ZsPYOQTNMUmoo.jpg",
    "styleId": "flat-space",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/flat-space.jpg"
   },
   {
    "category": "Painterly",
@@ -28,7 +29,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T17-53-19.298Z-gZWZ95OKltut0E71VoddtsjLRyNTTqEjc.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T17-53-17.050Z-8S6H9IkjMdwoXrf_K1X8M8ELfnrPU6jEH.jpg",
    "styleId": "watercolor",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/watercolor.jpg"
   },
   {
    "category": "Paper & Craft",
@@ -42,7 +44,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T17-53-24.141Z-WmiwnQzn_6rhoWeTbeB8ibvt2vRbmpW4q.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T17-53-21.873Z-ZciYbkN0vXDvvkkwp-tg0i62_3aji1JvY.jpg",
    "styleId": "shadow-puppet",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/shadow-puppet.jpg"
   },
   {
    "category": "Hand-Drawn",
@@ -56,7 +59,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T17-53-27.358Z-AShiiN6FvNIRaRTrNIn90QWrJVx6o086U.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T17-53-26.558Z-GJPCWRQpkzIbYGsIq1GYDSyGZPyJcQquP.jpg",
    "styleId": "whiteboard",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/whiteboard.jpg"
   },
   {
    "category": "Cosmic & Psychedelic",
@@ -70,7 +74,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-07.343Z-DbwOig-HX7V9VcpCvEr5cOLFnzvb7QI22.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-02.956Z-AlI0ZCs8eH4H3UEKi4O1spmpE4apy0TAk.jpg",
    "styleId": "psychedelic",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/psychedelic.jpg"
   },
   {
    "category": "Popular Explainer Looks",
@@ -84,7 +89,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-12.258Z-l4aZ2aI_8bS7MGo6Ufb6ZPlSTc65hebuV.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-10.856Z-pHfRcqeubhlhkT2P-Ra4bTCB1YJZwClTO.jpg",
    "styleId": "tech-glow",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/tech-glow.jpg"
   },
   {
    "category": "Popular Explainer Looks",
@@ -98,7 +104,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-15.658Z-kT0YzdR2nebKNuL5ltVwjUi5Ip4qIqgXS.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-14.844Z-lu1tBs7cSTGmLc881MFWbSeHQHS3w9YsT.jpg",
    "styleId": "papercraft",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/papercraft.jpg"
   },
   {
    "category": "Light & Imaging",
@@ -112,7 +119,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-19.524Z-XdupWSZAGNRf-naKtgpAApW-eloMfDNB2.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-18.443Z-4mMn6gmnz43ovxg49xXsIC61JYnI6zW1G.jpg",
    "styleId": "film-noir",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/film-noir.jpg"
   },
   {
    "category": "Popular Explainer Looks",
@@ -126,7 +134,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-23.326Z-2aP9fScsYmI9NyYK2cbqCtrw3aDsgqKEi.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-22.496Z-4EaGwT4BPxquRqJrIqugxaJxk8DCoBB4U.jpg",
    "styleId": "math-anim",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/math-anim.jpg"
   },
   {
    "category": "Illustration",
@@ -140,7 +149,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-26.193Z-HwLJwNZ927zarjgtzB-tsn73kuvcdXLST.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-25.398Z-DIqbTmCuiPzXuA9f7tjVt5DtUzF_ORYDg.jpg",
    "styleId": "illuminated",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/illuminated.jpg"
   },
   {
    "category": "Popular Explainer Looks",
@@ -154,7 +164,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-29.882Z--3vkdz9lshaxBr6YGsFQYWJYa9gM_T4Rf.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-29.036Z-e1rUhDLSMZek43GbGTWXKO25lqTQXfYn_.jpg",
    "styleId": "editorial-collage",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/editorial-collage.jpg"
   },
   {
    "category": "Light & Imaging",
@@ -168,7 +179,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-33.072Z-IR40tDdmj-K5Ut5CIit8En6zmkekRO1ie.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-32.270Z-LwlBzDVnX8d0NmrDMooBuX8aO5kkLJLQ4.jpg",
    "styleId": "deep-sea",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/deep-sea.jpg"
   },
   {
    "category": "Popular Explainer Looks",
@@ -182,7 +194,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-36.175Z-eR8S211l2JodEO09X2LccAgCF3KNiUt3w.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-35.412Z-tJ7otiELc-RyPkKjAmqts0BkrN-ofxaCh.jpg",
    "styleId": "product-launch",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/product-launch.jpg"
   },
   {
    "category": "Print",
@@ -196,7 +209,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-39.323Z-hgIHxgiAi2qUOSLjQpEAO6-MOQePtcuAH.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-38.458Z-k7IBGVwqRoAcdvOqL1o5hOivkNjoQueCl.jpg",
    "styleId": "halftone-pop",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/halftone-pop.jpg"
   },
   {
    "category": "Dimensional",
@@ -210,7 +224,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-42.310Z-ZrURG5UN9dm9MWVYpwhYGhr95RaN9OBE9.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-41.521Z-0zhdWtHJe4zUQH2BRaaMWguBxwX51lWxm.jpg",
    "styleId": "isometric",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/isometric.jpg"
   },
   {
    "category": "Retro Digital",
@@ -224,7 +239,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-46.284Z-CXkjVcir920xS3E2xZenOt3591trQRjj-.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-45.496Z-0dpx6Y3d7Z5hHILrFP1lVG0IAqwTKCRIz.jpg",
    "styleId": "oscilloscope",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/oscilloscope.jpg"
   },
   {
    "category": "Print",
@@ -238,7 +254,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-49.409Z-hQzjAULa-HD8ux2fbRvRv8L-hadpxvUnu.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-48.581Z-P7q5W6QKKa3NLIYa4a5dZZunYjHGYa4eR.jpg",
    "styleId": "risograph",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/risograph.jpg"
   },
   {
    "category": "Paper & Craft",
@@ -252,7 +269,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-52.636Z-lfdsGkqd5xHNorvYcmVBZjihsBZMNr6vb.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-51.776Z-D7BP4aXq6kwj6T0W_TMY1orQ9vLVImyJi.jpg",
    "styleId": "claymation",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/claymation.jpg"
   },
   {
    "category": "Light & Imaging",
@@ -266,7 +284,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-55.409Z-X1m7BuV0Y-kQBTSm-Oj3TOFopF8fnm7Vd.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-54.610Z-UUe_XvwOffOV8TH3rZFRjD5mgL3P-lr52.jpg",
    "styleId": "neon-sign",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/neon-sign.jpg"
   },
   {
    "category": "Popular Explainer Looks",
@@ -280,7 +299,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-58.472Z-hkyxGVF8bxeSgM99xgzly3wWsHVUAqYMN.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-15-57.660Z---Du4Zm4cBUwtGysnrY44PPI_gYAprmKX.jpg",
    "styleId": "kawaii",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/kawaii.jpg"
   },
   {
    "category": "Art & Design Movements",
@@ -294,7 +314,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-01.509Z-EmjuzGH_aoVLy1VbrptiF_1skO-AH9U3_.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-00.674Z-ucsEI8aPiD-7dbY_fwZUrg7kyO-2SgeYl.jpg",
    "styleId": "ukiyo-e",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/ukiyo-e.jpg"
   },
   {
    "category": "Retro Digital",
@@ -308,7 +329,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-04.561Z-w-rlNxyWNfEH7hNJDQsDCDAT9EWjeahuk.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-03.691Z-0m8IEK4DXmaeiWyWEKS9wZxA1DO_WPs8_.jpg",
    "styleId": "pixel-16bit",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/pixel-16bit.jpg"
   },
   {
    "category": "Hand-Drawn",
@@ -322,7 +344,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-07.560Z-GB6FlY9Ql--jahQcRS1pd2Kz15xOnrMVQ.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-06.763Z-V-YGv7tusHhjuJX5G196ArNeQD0l5EIuk.jpg",
    "styleId": "chalkboard",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/chalkboard.jpg"
   },
   {
    "category": "Paper & Craft",
@@ -336,7 +359,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-10.707Z-QE9bCsqWu0J2SeoQuNNBmWIh2fvt-Xq9J.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-09.941Z-n42A4w4HvxLSpK3oYckFf3BIHgWNCZbMR.jpg",
    "styleId": "cut-paper",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/cut-paper.jpg"
   },
   {
    "category": "Painterly",
@@ -350,7 +374,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-13.566Z-O_T5y7gYllbAQkkxaRz1k139FCnqbhv6O.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-12.789Z-38gvyMItXbjqtiaZs2Ytt6VdD7sVrUAZF.jpg",
    "styleId": "stained-glass",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/stained-glass.jpg"
   },
   {
    "category": "Data & Information",
@@ -364,7 +389,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-16.621Z-YDLno4VrzpOaYbKqKsDHROce8esNdmxsY.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-15.841Z-Pw8Jag0ynf-IFMVbFUcb7TgugkZjp_PVY.jpg",
    "styleId": "editorial-chart",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/editorial-chart.jpg"
   },
   {
    "category": "Retro UI & Neon",
@@ -378,7 +404,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-19.724Z-N2-aNsGGvTb0AwbulkUnHk8UZb4KOxIwm.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-18.877Z-jQW70VJTWnMW1jakjqgDOXHH5ckjgOtdz.jpg",
    "styleId": "synthwave",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/synthwave.jpg"
   },
   {
    "category": "Paper & Craft",
@@ -392,7 +419,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-22.671Z-48VujZeV2cMjnCcIgxjO6XbVPJwJjyKyL.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-21.908Z-aGt7Thz8N3IG2ZC-WPFnBxxbIgFqmjBBa.jpg",
    "styleId": "origami",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/origami.jpg"
   },
   {
    "category": "Print",
@@ -406,7 +434,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-25.737Z-YXHpMomJOGO-HSKLmcTMo1lDxGqQY6hzM.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-24.941Z-nBeKyLyMn9kx5h311yagWhiIj6RX_fpkp.jpg",
    "styleId": "linocut",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/linocut.jpg"
   },
   {
    "category": "Light & Imaging",
@@ -420,7 +449,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-28.843Z-nrRyR3NbpIpMsKGnQlIX3yOQGENR_IWTh.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-28.052Z-iCmtUKkZQmzA691vXR4FD_CfkmvooinWk.jpg",
    "styleId": "holographic-foil",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/holographic-foil.jpg"
   },
   {
    "category": "Dimensional",
@@ -434,7 +464,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-31.779Z-jhzy0vtcryTuUDJC_uRgcYK2x_qNQcJ78.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-31.016Z-IVSbKO1OpMh4pSSKP6BzXTYA3Ebtg48vK.jpg",
    "styleId": "voxel",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/voxel.jpg"
   },
   {
    "category": "Painterly",
@@ -448,7 +479,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-34.860Z-I7v__EWnJNBUy171dLLQRRiIicrPzfphi.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-34.054Z-t8z_GUBvfk9IX6roXRoYnh0arXWFAnuhZ.jpg",
    "styleId": "sumi-e",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/sumi-e.jpg"
   },
   {
    "category": "Hand-Drawn",
@@ -462,7 +494,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-38.126Z-QneNMhebGM6sO3OA5zusGDbrkXiTS8ZDO.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-37.266Z-KfoxXwNa-5Fb2J4Vj5l7lr3X5rMvDJRlL.jpg",
    "styleId": "etch-sketch",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/etch-sketch.jpg"
   },
   {
    "category": "Cosmic & Psychedelic",
@@ -476,7 +509,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-40.889Z-hy4iuRBLzXtY9RACy6ojP4guC2v2iDQeb.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-40.132Z-aUHxEQDCLX2v09WB9Y4MFJLqHEuy6Q1eL.jpg",
    "styleId": "cosmic",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/cosmic.jpg"
   },
   {
    "category": "Paper & Craft",
@@ -490,7 +524,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-43.938Z-2_tgJsCxsK03l876liWqnYC8CL00wGt6D.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-43.134Z-gbtocxaMYyBZV1MEHPPwxIIJyJd378zd4.jpg",
    "styleId": "collage-zine",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/collage-zine.jpg"
   },
   {
    "category": "Light & Imaging",
@@ -504,7 +539,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-47.300Z-j8-1QqXVrBKvLqEqoh9M2kuwQPojmMjdZ.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-46.298Z-6z2fdGR-NYNAZUflSDC04gQeb3xf8c-mQ.jpg",
    "styleId": "thermal-camera",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/thermal-camera.jpg"
   },
   {
    "category": "Hand-Drawn",
@@ -518,7 +554,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-50.015Z-OVayMRXYmEqK5PXYKr3woD5VrM27G8hzt.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-49.237Z-cXbKaiCZgYEB3a4L2VypmzZ-I272G0jq7.jpg",
    "styleId": "blueprint",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/blueprint.jpg"
   },
   {
    "category": "Painterly",
@@ -532,7 +569,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-53.043Z-9yIBapIyrLv3ZBpnwQbDriz351ouMbOGY.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-52.236Z-yHmtLw_nBm2jNEzb-7-fGqpWe7BNSmpkn.jpg",
    "styleId": "impasto-oil",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/impasto-oil.jpg"
   },
   {
    "category": "Retro UI & Neon",
@@ -546,7 +584,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-56.007Z-sIZcSenO27TJTYoxp6b6TvBGuF6z_FPeD.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-55.245Z-Twg1Klss4JYtnxPCFaNQ-oALZ7JLUHksY.jpg",
    "styleId": "win95",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/win95.jpg"
   },
   {
    "category": "Dimensional",
@@ -560,7 +599,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-59.074Z-m47HiKrv9fNuXo61FYjTP1Zu1zJkoc7Lo.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-16-58.291Z-g5qzTInNHPbIkgPHokcc8tPFKedarxMyE.jpg",
    "styleId": "low-poly",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/low-poly.jpg"
   },
   {
    "category": "Illustration",
@@ -574,7 +614,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-02.193Z-pOl3SVfsI3VvD9OeC2o0MyxOgBOOxQsdI.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-01.350Z-GxJVMmAiSceqb5A1gx_Dv-cA0TPqoIR_Y.jpg",
    "styleId": "manga-panel",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/manga-panel.jpg"
   },
   {
    "category": "Print",
@@ -588,7 +629,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-05.396Z-pIoUf9MFSxFCdRU8DnC7tpa2i7FqZgdDo.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-04.382Z-nSu3mxc33EceLeIN67FQ4Si_jZ3dGvimS.jpg",
    "styleId": "letterpress",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/letterpress.jpg"
   },
   {
    "category": "Light & Imaging",
@@ -602,7 +644,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-09.065Z-l5Wl4g6cltcrXR5K-BchIdsIWctLeq12U.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-08.294Z-7Pm_6sphUawxYIMKuU3Ny4xgj-27ND_hb.jpg",
    "styleId": "light-painting",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/light-painting.jpg"
   },
   {
    "category": "Paper & Craft",
@@ -616,7 +659,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-12.306Z-xOgpzDcITl3zS5PuXpNf_BWDxkHtbjDf_.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-11.517Z-a_du0wcmZzbRjH0KHVnMz2LxpmqcYVjX7.jpg",
    "styleId": "felt-quilt",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/felt-quilt.jpg"
   },
   {
    "category": "Retro Digital",
@@ -630,7 +674,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-15.535Z-kJiBI68yiHI4METHz4vHbpl_OcsWhW37q.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-14.736Z-xJWE5tFKYvyY-LhFCtd5tuK2l_JC2rTUr.jpg",
    "styleId": "crt-terminal",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/crt-terminal.jpg"
   },
   {
    "category": "Dimensional",
@@ -644,7 +689,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-18.341Z-kCO0pzKCidzsPpcugNQ3Edf7yWu-Z1vpr.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-17.550Z--gh39TPFIkRoBqLGrnsgh4yVFamTvtZdw.jpg",
    "styleId": "glassmorphism",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/glassmorphism.jpg"
   },
   {
    "category": "Illustration",
@@ -658,7 +704,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-21.433Z-JCV5fkbIoQMK_iX_VdEDu6TU3CWGxAaSl.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-20.585Z-gIdaelO2AZHJrtk0HmaUT3Ht8d5TfOjl6.jpg",
    "styleId": "tarot-card",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/tarot-card.jpg"
   },
   {
    "category": "Data & Information",
@@ -672,7 +719,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-24.430Z-omT0hLlw_GnSqcbHfrzLHwPNQ7JnybKnf.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-23.687Z-IS3P2ydo1NCtQBVrqiNyBcdhWS7s-KSYq.jpg",
    "styleId": "transit-map",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/transit-map.jpg"
   },
   {
    "category": "Painterly",
@@ -686,7 +734,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-27.425Z-MRR0cgFkKb4WpnidtsmLAzA3QHptpFuzo.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-26.645Z-XqoKfnSy5z3AXpfQZhGMlLk8bESTCq_sL.jpg",
    "styleId": "gouache-poster",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/gouache-poster.jpg"
   },
   {
    "category": "Hand-Drawn",
@@ -700,7 +749,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-30.426Z-erKveZcMRKiZBvgJbZZpsSEk46dbhZT95.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-29.674Z-_7RbqQ-zruSIWQaKtA99e7Et4xo3rTCW8.jpg",
    "styleId": "napkin-sketch",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/napkin-sketch.jpg"
   },
   {
    "category": "Art & Design Movements",
@@ -714,7 +764,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-33.495Z-WVnQmcgE3MCUc9s76plCgY0sr9GSe6YJE.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-32.718Z-23liY10-TDIDMg2V-mUdBBBLThXFHE8xT.jpg",
    "styleId": "art-deco",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/art-deco.jpg"
   },
   {
    "category": "Light & Imaging",
@@ -728,7 +779,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-36.545Z-RESAzRqvVz1RK7nTZyWkkH4TRvw6W1Elo.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-35.757Z-YdeSH0KSvf-wRGY4yLJIShap2XDKAH-6D.jpg",
    "styleId": "x-ray",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/x-ray.jpg"
   },
   {
    "category": "Retro UI & Neon",
@@ -742,7 +794,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-39.575Z-Em577sLQEXAu3-dq2gf9Gs1n2ucxy7jJ1.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-38.752Z-GBVHWJ6Ylq3stDmwufplGdKkdJ26BwAhy.jpg",
    "styleId": "vaporwave",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/vaporwave.jpg"
   },
   {
    "category": "Generative & Type",
@@ -756,7 +809,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-42.638Z-vJHPVJHC7D_kF3ruGCda7Pv6ybSYLOfSM.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-41.800Z-fh_Jbf8R15WqzFkAjSQV6iVzPHqy8eanB.jpg",
    "styleId": "paper-marbling",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/paper-marbling.jpg"
   },
   {
    "category": "Data & Information",
@@ -770,7 +824,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-46.878Z-VwRdE3vuAgWyCkTFoyOEm2a6uOcq8qGVC.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-44.828Z-fapoH9_8DS-ZlUQ2cbgsOWSk_vSAMdgjA.jpg",
    "styleId": "isotype",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/isotype.jpg"
   },
   {
    "category": "Dimensional",
@@ -784,7 +839,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-49.613Z-rtJlAnxUClES-IiMSbLXihOOmoYMd7iu0.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-48.872Z-1rYJJ41bKoysttMnzd4OayoFeqK_lquVj.jpg",
    "styleId": "soft-3d",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/soft-3d.jpg"
   },
   {
    "category": "Paper & Craft",
@@ -798,7 +854,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-52.904Z-wqu3suLg1isMCtgeofOOFblwXksEBHgWM.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-52.136Z-b27x4BKiWTeEyGW4qBQq0IIgyvQeuReKI.jpg",
    "styleId": "cross-stitch",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/cross-stitch.jpg"
   },
   {
    "category": "Art & Design Movements",
@@ -812,7 +869,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-55.818Z-AiE9vMk8ycpQ_u9yr2Ibm2t0NLky36vZQ.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-54.998Z-w6-EdGBpfXLcW3fw5P_juk7gqJukI_VXW.jpg",
    "styleId": "constructivist",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/constructivist.jpg"
   },
   {
    "category": "Retro Digital",
@@ -826,7 +884,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-58.773Z-PYD3aFmGqubpwo8UkMrC3N9heafueKX9H.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-17-58.003Z-JG1BisnKbZsB5iMNwhhXVpvoIrZAEP8tv.jpg",
    "styleId": "gameboy",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/gameboy.jpg"
   },
   {
    "category": "Illustration",
@@ -840,7 +899,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-01.731Z-1OpZD1rP_FSghr2_TcHw_3eXAsEdHDGIw.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-00.984Z-jHX4BA7h-iOlmPdK15pOg0y1ttpFcZZMu.jpg",
    "styleId": "botanical-plate",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/botanical-plate.jpg"
   },
   {
    "category": "Generative & Type",
@@ -854,7 +914,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-04.866Z-EYoiCQLCrLyGYDWhUWbUZIsqv2oV-oYOE.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-04.083Z-TRYyDyn_sh-Wn7uwYUV09jxuYtYg6y0IH.jpg",
    "styleId": "kinetic-type",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/kinetic-type.jpg"
   },
   {
    "category": "Illustration",
@@ -868,7 +929,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-07.928Z--wMQEs48juj1IZ465JspHGUBDscelz9Gc.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-07.074Z-i37eF1ZRTfhgvYaULGRfS_f4X_w1CjGIt.jpg",
    "styleId": "mosaic",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/mosaic.jpg"
   },
   {
    "category": "Retro UI & Neon",
@@ -882,7 +944,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-10.947Z-p16a6I9G40YMMuC7BU8oPZyw-SObnopmu.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-10.116Z-aDZmcYJ2qDyLOeNi7rD7EDE9IusLpjgqx.jpg",
    "styleId": "y2k-chrome",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/y2k-chrome.jpg"
   },
   {
    "category": "Illustration",
@@ -896,7 +959,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-13.950Z-txkvZedOypzcjreVXKUPkpTciudu1MJYD.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-13.142Z-XRGR5p5W16fzWL21uFQ7tOHIy9Y3SK9SL.jpg",
    "styleId": "sticky-notes",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/sticky-notes.jpg"
   },
   {
    "category": "Print",
@@ -910,7 +974,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-17.096Z-eMLmS7SrdUJMjK_G-2F3jnkN5GvghfLLG.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-16.158Z-f-fQHvix0WRXa0hvOJJOU_GHojVSzHPy4.jpg",
    "styleId": "newsprint",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/newsprint.jpg"
   },
   {
    "category": "Dimensional",
@@ -924,7 +989,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-20.148Z-xpLrRqiCtv6z3irIClpC2sZ_JfX-Z3mWZ.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-19.257Z-xjg3a8o0PfXxzkey2ejm-rwiO4IY_kmZn.jpg",
    "styleId": "wireframe-terrain",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/wireframe-terrain.jpg"
   },
   {
    "category": "Art & Design Movements",
@@ -938,7 +1004,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-24.255Z-5ocKzIh-UglM206GPWfPIaK7zgh2_UhB9.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-23.461Z-LXZnvukM-TOwSSxZaMVa0KAAH63fukuXY.jpg",
    "styleId": "memphis",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/memphis.jpg"
   },
   {
    "category": "Hand-Drawn",
@@ -952,7 +1019,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-27.087Z-4ZX2G5jIG8shxvcKuFN3UpL8rz36ToyhS.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-26.343Z-tj3yzOpd1mylP0XYlv-r81swx_DgiUyo4.jpg",
    "styleId": "ballpoint-notebook",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/ballpoint-notebook.jpg"
   },
   {
    "category": "Generative & Type",
@@ -966,7 +1034,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-30.186Z-RSunCQNfGGoP9dEQ5A1p8XqJOdUbKkht2.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-29.390Z-ZUZXhkWOL-J_VGo9AH6f9cJ_ZnMPCzsbi.jpg",
    "styleId": "op-art",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/op-art.jpg"
   },
   {
    "category": "Data & Information",
@@ -980,7 +1049,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-33.204Z-um3i-2BiBWQo4D_rDE5e9MdS09olLxu44.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-32.410Z-3UGbjfMTejNEmsX0-kUi8diN6lKE2Wzrz.jpg",
    "styleId": "topographic",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/topographic.jpg"
   },
   {
    "category": "Painterly",
@@ -994,7 +1064,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-36.420Z-7of3k87_YXndYFGm0QAcjrBXYDol1JOP9.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-35.576Z-WOPFIDVZunnHiZ2OeOVU1jp8lsW3vdeZV.jpg",
    "styleId": "pointillism",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/pointillism.jpg"
   },
   {
    "category": "Retro Digital",
@@ -1008,7 +1079,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-39.306Z-DSi1CHmTBIYRsEtHmKLiXEQYze51LW_L9.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-38.556Z-6ibhROZz7rBXcH02Y5rLkkcS46Awyw-lr.jpg",
    "styleId": "vector-arcade",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/vector-arcade.jpg"
   },
   {
    "category": "Illustration",
@@ -1022,7 +1094,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-42.369Z-8eAeJBfBbF6eYRpBF_qppyucVuphBTsAI.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-41.578Z-0JEwEDUQ-OHyp4gy6pHnymEjQ1nahF2Uw.jpg",
    "styleId": "patent-drawing",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/patent-drawing.jpg"
   },
   {
    "category": "Art & Design Movements",
@@ -1036,7 +1109,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-45.468Z-C3gGeO5i0IKGj-qEy8g8dnAyTJ_jOzPLQ.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-44.690Z-Lt1fZYB0xxlNZBgso-3_OBl3WrlCHddKZ.jpg",
    "styleId": "bauhaus",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/bauhaus.jpg"
   },
   {
    "category": "Retro UI & Neon",
@@ -1050,7 +1124,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-48.510Z-0Q6edLRh990AJew6PTeMzXD-tVF09SC9d.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-47.752Z-BF4XeGoOOo7I-0fTzElEnngHPIBMtVbft.jpg",
    "styleId": "ms-paint",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/ms-paint.jpg"
   },
   {
    "category": "Generative & Type",
@@ -1064,7 +1139,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-51.544Z-JqsgyZOqRNMvczMFVJcJnFU0DqIopdgAx.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-50.788Z-WzZ01Up6q-dZZFZ9usJXiF2PMtRU7nMmb.jpg",
    "styleId": "string-art",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/string-art.jpg"
   },
   {
    "category": "Data & Information",
@@ -1078,7 +1154,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-54.909Z-dZr3tuXT-m-o2X_GiG4gbjvU0CJrSuU4E.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-54.074Z-gU5JzfplyP7Y-SsfPnyah86kCL4I_VaK2.jpg",
    "styleId": "ridgeline",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/ridgeline.jpg"
   },
   {
    "category": "Hand-Drawn",
@@ -1092,7 +1169,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-57.585Z-QFYscONNMNlfdFD0K1quzeNG8b-P1fuUl.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-56.803Z-H5VACMb-8ow5UvXDbX4qzev0Y_nrLVsy5.jpg",
    "styleId": "sketchbook-pencil",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/sketchbook-pencil.jpg"
   },
   {
    "category": "Retro UI & Neon",
@@ -1106,7 +1184,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-00.623Z-e0HjOte4MRDzs6CqWS-vf3EVQrPmLVfJd.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-18-59.835Z-AvU0jfajPgtA2RrowAmoRfMXdwBSZSgRO.jpg",
    "styleId": "teletext",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/teletext.jpg"
   },
   {
    "category": "Print",
@@ -1120,7 +1199,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-03.648Z-aZK2xoNmwJ_-l2FML8lzJV_pIB-9fDxXC.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-02.893Z-gZVaAZe0DJgMB-dzen8spfAmQhBvhJXEr.jpg",
    "styleId": "screenprint-grid",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/screenprint-grid.jpg"
   },
   {
    "category": "Generative & Type",
@@ -1134,7 +1214,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-06.896Z-v_kGe4QEB3ECia-XpQXpSC5lLd1wYes4y.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-06.015Z--eW-sLDmNGRksAmgJRXYmQOCRNN5SKTNW.jpg",
    "styleId": "spirograph",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/spirograph.jpg"
   },
   {
    "category": "Retro Digital",
@@ -1148,7 +1229,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-09.797Z-HC3lDq4q-4kP9zd9CdoCxUl7jcwwKi9J0.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-09.031Z-76oPcZ-If0sJNHo-cQlMMA-ZDYI9s5-Hh.jpg",
    "styleId": "ascii-render",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/ascii-render.jpg"
   },
   {
    "category": "Art & Design Movements",
@@ -1162,7 +1244,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-12.776Z-DPgbv9yIiT0n0VAjulyoLwGyX7tog-hiF.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-11.994Z-YpLmf2nXhER7DY49FabkMs7qzRQiqcbSX.jpg",
    "styleId": "swiss-grid",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/swiss-grid.jpg"
   },
   {
    "category": "Data & Information",
@@ -1176,7 +1259,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-15.746Z-Rbm91AGvS-BCpaAxC6xUYqdffNUEu6Km6.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-14.963Z-zPF-Y_-5kVjKxVkRF10bTiybwIbQ32cWT.jpg",
    "styleId": "flow-field",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/flow-field.jpg"
   },
   {
    "category": "Retro Digital",
@@ -1190,7 +1274,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-18.834Z-y3L-ZAutvKknif_R1P71jmInEGMJ4EW4i.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-18.017Z-e_ZOSKgsdcC-RPb_1Mw_P17_ktQCdOOvR.jpg",
    "styleId": "mac-1bit",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/mac-1bit.jpg"
   },
   {
    "category": "Generative & Type",
@@ -1204,7 +1289,8 @@
    "s3ExplainerVideoUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-21.922Z-efqTLk-9Ou-CDQnV8fWTjn-DsTrRVCpjd.mp4",
    "s3PosterImageUrl": "https://cdn.futurepedia.io/2026-10-14T18-19-21.112Z-h5OOS8widOyReUUVy23Gz1Smtx2fZu8Iz.jpg",
    "styleId": "truchet",
-   "tag": null
+   "tag": null,
+   "image": "images/ai/truchet.jpg"
   }
  ],
  "styles": {
